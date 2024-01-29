@@ -8,55 +8,83 @@
 
     <body>
 
-        <header>
-
-        <div class="header">
-            <a href="#">Home Page</a>
-            <nav>
+        <header class="header">
+            <div class="home-page">Home Page</div>
+            <nav class="nav">
                 <ul>
                     <li><a href="#">header link one</a></li>
                     <li><a href="#">header link two</a></li>
                     <li><a href="#">header link three</a></li>
                 </ul>
-            <div>
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. Its a smaller fonr and the color is lower contrast </p>
-                <button>Sign up</button>
-            </div>
-            <img src="../odin-recipes/images/cake.webp" alt="cake">
-        </div>
-
+            </nav>
         </header>
 
-        <section>
-            <h1>Some random information</h1>
+        <main class="main-section">
+            
+            <section class="hero">
+                <div class="text">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. Its a smaller font and the color is lower contrast </p>
+                    <button>Sign up</button>
+                </div>
+                <div class="placeholder">
+                    <img src="images/cake.webp" alt="cake">
+                </div>
+            </section>
+
+        <section class="cards-section">
+
+            <div class="title">Some random information</div>
+
             <div class="cards-container">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+
+                <div class="card">
+                    <img src="images/cake.webp" alt="cake" width="300px">
+                    <div class="text">This is some subtext under an illustration or image</div>
+                </div>
+
+                <div class="card">
+                    <img src="images/cake.webp" alt="cake" width="300px">
+                    <div class="text">This is some subtext under an illustration or image</div>
+                </div>
+
+                <div class="card">
+                    <img src="images/cake.webp" alt="cake" width="300px">
+                    <div class="text">This is some subtext under an illustration or image</div>
+                </div>
+
+                <div class="card">
+                    <img src="images/cake.webp" alt="cake" width="300px">
+                    <div class="text">This is some subtext under an illustration or image</div>
+                </div>
+
             </div>
         </section>
 
-        <section>
+        <section class="quote-section">
             <div class="quote-container">
                 <blockquote>
                     This is an inspiring quote, or a testimonal from a customer. Maybe its just filling up space, or maybe people will actually read it. Who knows? All i Know is that it looks nice
-                    <cite>-Thor, God of Thunder</cite>
+                    <div class="cite">
+                        <cite>-Thor, God of Thunder</cite>
+                    </div>
                 </blockquote>
             </div>
         </section>
 
-
-        <section>
+        <section class="cta-section">
             <div class="cta-container">
-                <div class="cta">
+                <div class="cta-text">
                     <h2>Call to action! Its time!</h2>
                     <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="cta-button">
                     <button>Sign up</button>
                 </div>
             </div>
         </section>
+
+        </main>
 
         <footer> 
             <div class="footer">
@@ -66,3 +94,4 @@
 
     </body>
 </html>
+
